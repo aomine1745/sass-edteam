@@ -1,0 +1,20 @@
+// Desventajas de CSS.
+// No es progrmaación.
+// Especificidad, cascada, herencia.
+// Modularización.
+
+// Sass es un superset de CSS (un lenguaje que amplia las capacidades de CSS).
+
+// Sass es un preprocesador de CSS. hay que convertirlo a CSS (compilar).
+// Sass es 100% compatible con CSS.
+// 1. styles.css -> styles.scss
+// 2. Modulariza -> divide tu hoja de estilos en varios archivos
+// 3. Importa desde un archivo principal
+// 4. Compila
+
+@import 'components/variables';
+@import 'test/test';
+@import 'components/nesting';
+@import 'components/mixins';
+@import 'components/loops';
+

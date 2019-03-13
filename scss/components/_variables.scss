@@ -1,0 +1,24 @@
+//Number
+$number: 1;
+$number: 10px;
+$number: 45deg;
+
+//String
+$string: 'EDteam';
+$string2: none;
+
+//Color
+$color: green;
+$color2: hsl(200, 100, 50);
+$color3: #aaff99;
+
+//List
+$list: 1px solid red;
+$list2: primary, secondary, tertiary;
+
+//Map
+$map: (
+	primary: red,
+	secondary: green,
+	tertiary: blue
+	);
